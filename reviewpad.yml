@@ -6,7 +6,6 @@
 workflows:
   - name: my workflow
     run:
-      - $failCheckStatus("fredd")
       - $merge("rebase")
       
 
