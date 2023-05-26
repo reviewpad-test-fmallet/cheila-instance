@@ -6,5 +6,5 @@
 workflows:
   - name: my workflow
     run:
-      - $addLabel("freddy")
+      - $failCheckStatus("pas bon freddy")
 
